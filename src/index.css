@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.ML, h2, h3
+{
+  color: white;
+  font-family: Georgia;
+  max-width: 70vw;
+}
+
+a 
+{
+  color: blue;
+  background: lightgray;
+  font-family: Georgia;
 }
