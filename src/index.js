@@ -4,7 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import data_img from './imdb_data.png';
+import my_pic from './picofme.jpg';
+import github_pic from './github.png'
 import ReactCSSTransitionGroup from 'react-transition-group'; // ES6
+import {Link} from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function WebDev(props)
 {
@@ -84,6 +88,11 @@ function Description(props)
       {activated && <WebDev />}
       {!activated && <DataSci />}
     </div>
+    <img src={my_pic} className='mypic'/>
+    <div>
+    <button className='gitbutton' onClick={() => window.location = 'https://stackoverflow.com/questions/28250103/how-to-navigate-via-clickhandlers'} ><img src={github_pic} className='github' /></button>
+    </div>
+
   </div>
   );
 }

@@ -6,6 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: black;
+  height: 100%;
+  width: 100%;
 }
 
 code {
@@ -25,4 +27,37 @@ a
   color: blue;
   background: lightgray;
   font-family: Georgia;
+}
+
+
+.github
+{
+  position: fixed;
+  width: 2.5vw;
+  height: 5vh;
+  top: 92.2vh;
+  left: 96.2vw;
+  line-height:0%;
+}
+
+.github:hover
+{
+  cursor: grab;
+}
+
+.gitbutton
+{
+  
+}
+
+.mypic
+{
+  width: 10vw;
+  height: 30vh;
+  position: absolute;
+  top: 0vh;
+  left: 88.8vw;
+  border: 2px solid;
+  border-radius: 3px;
+  border-color: white;
 }
