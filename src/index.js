@@ -9,6 +9,7 @@ import github_pic from './github.png'
 import ReactCSSTransitionGroup from 'react-transition-group'; // ES6
 import {Link} from 'react-router-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import ReactPlayer from 'react-player'
 
 function WebDev(props)
 {
@@ -44,6 +45,10 @@ function DataSci(props)
   <div>
   <p>To get a strong mathematical foundation and theoretical foundation, I took multivariable calculus, statistics, and linear algebra during high school and read the Goodfellow Deep Learning Book</p>
   <p>I also read research papers to further my knowledge and make my notes publicly available on github:</p>
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/mgntprg/DL_Book">DL Book Notes</a>
+  <br></br>
+  <br></br>
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/mgntprg/Research_Papers_anno">Research Papers</a>
   </div>
   
   <br></br>
@@ -54,6 +59,8 @@ function DataSci(props)
   <p>I am also familiar with sci-kit learn and non-deep machine learning models.</p>
   <p>One of the first projects I made was a simple AI which fit a random forest tree model to a basic platformer I made with pygame. </p>
   <p>I collected the data by playing the game and recording variables whenever I made a successful move:</p>
+  <ReactPlayer url='https://www.youtube.com/watch?v=AHnLgGBiOkM' />
+  <br></br>
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/mgntprg/JumpingClassifier">Jumping Game</a>
   </div>
 
@@ -90,7 +97,7 @@ function Description(props)
     </div>
     <img src={my_pic} className='mypic'/>
     <div>
-    <button className='gitbutton' onClick={() => window.location = 'https://stackoverflow.com/questions/28250103/how-to-navigate-via-clickhandlers'} ><img src={github_pic} className='github' /></button>
+    <img src={github_pic} className='github' onClick={() => window.location = 'https://github.com/mgntprg'}/>
     </div>
 
   </div>
