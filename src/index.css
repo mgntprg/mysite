@@ -15,6 +15,7 @@ body {
   background: black;
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
 }
 
 code {
@@ -49,7 +50,7 @@ a
   position: fixed;
   width: 2.5vw;
   height: 5vh;
-  top: 92.2vh;
+  top: 94.5vh;
   left: 96.2vw;
   line-height:0%;
   border: 2px solid;
