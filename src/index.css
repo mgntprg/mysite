@@ -73,3 +73,16 @@ a
   border-radius: 3px;
   border-color: white;
 }
+
+.WebDev, .DataSci
+{
+  background-color: black;
+  color: white;
+  border: 1px solid cyan;
+  cursor: grab;
+}
+
+.WebDev:hover, .DataSci:hover
+{
+  background-color: grey;
+}
