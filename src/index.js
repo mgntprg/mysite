@@ -107,7 +107,7 @@ function Description(props)
 ReactDOM.render(
   <React.StrictMode>
     <h2>Welcome to my page!</h2>
-    <h3>Below, you can learn more about my data science and web development knowledge</h3>
+    <h3><span className="below">Below, you can learn more about my data science and web development knowledge</span></h3>
     <Description></Description>
   </React.StrictMode>,
   document.getElementById('root')
