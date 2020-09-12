@@ -16,6 +16,19 @@ function WebDev(props)
   return <h1></h1>;
 }
 
+/*
+
+<div>
+  <p>I am also familiar with sci-kit learn and non-deep machine learning models.</p>
+  <p>One of the first projects I made was a simple AI which fit a random forest tree model to a basic platformer I made with pygame. </p>
+  <p>I collected the data by playing the game and recording variables whenever I made a successful move:</p>
+  <ReactPlayer url='https://www.youtube.com/watch?v=AHnLgGBiOkM' />
+  <br></br>
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/mgntprg/JumpingClassifier">Jumping Game</a>
+  </div>
+
+*/
+
 function DataSci(props)
 {
   
@@ -40,35 +53,28 @@ function DataSci(props)
   </div>
   <br></br>
 
-  <hr></hr>
 
+  <hr></hr>
+  <p>I implemented a NLP model using the BERT architecture which analyzed posts on reddit and classified whether someone was immoral in a given situation or not</p>
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/ml-stuff/reddit-aita-project">Reddit AITA Notebook</a>
+  
+  <br></br>
+  <hr></hr>
   <div>
-  <p>To get a strong mathematical foundation and theoretical foundation, I took multivariable calculus, statistics, and linear algebra during high school and read the Goodfellow Deep Learning Book</p>
+  <p>To get a strong mathematical foundation and theoretical foundation, I took multivariable calculus, statistics, and linear algebra and read the Goodfellow Deep Learning Book</p>
   <p>I also read research papers to further my knowledge and make my notes publicly available on github:</p>
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/mgntprg/DL_Book">DL Book Notes</a>
   <br></br>
   <br></br>
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/mgntprg/Research_Papers_anno">Research Papers</a>
-  </div>
+  <br></br>
   
-  <br></br>
-
-  <hr></hr>
-
-  <div>
-  <p>I am also familiar with sci-kit learn and non-deep machine learning models.</p>
-  <p>One of the first projects I made was a simple AI which fit a random forest tree model to a basic platformer I made with pygame. </p>
-  <p>I collected the data by playing the game and recording variables whenever I made a successful move:</p>
-  <ReactPlayer url='https://www.youtube.com/watch?v=AHnLgGBiOkM' />
-  <br></br>
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/mgntprg/JumpingClassifier">Jumping Game</a>
   </div>
 
-  <br></br>
   <hr></hr>
 
   <div>
-  <p>In this project, I tried to remove imperfections from filtered pictures.</p>
+  <p>In this project, I tried to remove imperfections from filtered pictures using OpenCV and a generative model.</p>
   <p>I got this inspiration because I noticed there were flaws whenever I used a PDF scanner, which could be fixed with basic editing</p>
   <p>I used OpenCV to apply filters to images in bulk, manually removed imperfections, and then used a generative model to get the final result</p>
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/mgntprg/blackboard_effect">Blackboard Effect</a>

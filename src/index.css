@@ -76,10 +76,10 @@ a
 
 .WebDev, .DataSci
 {
-  background-color: black;
-  color: white;
+  background-color: lightgrey;
+  color: black;
   border: 1px solid cyan;
-  cursor: grab;
+  cursor: pointer;
 }
 
 .WebDev:hover, .DataSci:hover
