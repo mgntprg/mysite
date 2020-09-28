@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import data_img from './imdb_data.png';
 import my_pic from './picofme.jpg';
 import github_pic from './github.png'
+import aita_pic from './aita_image.PNG'
 import ReactCSSTransitionGroup from 'react-transition-group'; // ES6
 import {Link} from 'react-router-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
@@ -56,6 +57,7 @@ function DataSci(props)
 
   <hr></hr>
   <p>I implemented a NLP model using the BERT architecture which analyzed posts on reddit and classified whether someone was immoral in a given situation or not</p>
+  <img src={aita_pic}></img>
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/ml-stuff/reddit-aita-project">Reddit AITA Notebook</a>
   
   <br></br>
