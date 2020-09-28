@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
@@ -14,7 +14,9 @@ import ReactPlayer from 'react-player'
 
 function WebDev(props)
 {
-  return <h1>I'm more of a data science person</h1>;
+  return <div>
+    <h3>I'm more of a data science person</h3>;
+    </div>
 }
 
 /*
@@ -90,6 +92,8 @@ function DataSci(props)
 function Description(props)
 {
   const [activated, setActivated] = useState(false);
+
+  useEffect(() => {document.title = "Data science stuff"})
   return (
   <div>
     <div>
