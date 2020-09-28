@@ -74,6 +74,12 @@ a
   border-color: white;
 }
 
+.aita_pic
+{
+  width: 56vw;
+  height: 30vh;
+}
+
 .WebDev, .DataSci
 {
   background-color: lightgrey;

@@ -57,7 +57,8 @@ function DataSci(props)
 
   <hr></hr>
   <p>I implemented a NLP model using the BERT architecture which analyzed posts on reddit and classified whether someone was immoral in a given situation or not</p>
-  <img src={aita_pic}></img>
+  <img src={aita_pic} className='aita_pic'></img>
+  <br></br>
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/ml-stuff/reddit-aita-project">Reddit AITA Notebook</a>
   
   <br></br>
