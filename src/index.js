@@ -93,7 +93,10 @@ function Description(props)
 {
   const [activated, setActivated] = useState(false);
 
-  useEffect(() => {document.title = "Data science stuff"})
+  //useEffect(() => {document.title = "Data science stuff"})
+  if(!activated) document.title = "Data science stuff";
+  else document.title = "Web dev stuff";
+
   return (
   <div>
     <div>
