@@ -41,6 +41,8 @@ function DataSci(props)
   <div>
   <p>I taught a reinforcement learning agent how to play Connect-4. Specifically, I created a deep-Q network from scratch and used a Connect-4 environment which had a minimax algorithm. </p>
   <p>Below is a video which shows a before and after of the deep-Q agent playing against a random agent. I chose to evaluate on a random agent instead of minimax since minimax is an objective solution for Connect-4</p>
+  <ReactPlayer url='https://www.youtube.com/watch?v=AHnLgGBiOkM' />
+  <br></br>
   <a target="_blank" rel="noopener noreferrer" href="https://www.kaggle.com/mgntprg/connectx">Connect 4 DQN</a>
   </div>
 
