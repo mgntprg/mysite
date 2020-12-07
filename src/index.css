@@ -40,9 +40,14 @@ h2
 
 a 
 {
-  color: blue;
-  background: lightgray;
+  color:  rgb(93, 166, 214);
   font-family: Georgia;
+  text-decoration: none;
+}
+
+a:hover
+{
+  text-decoration: underline;
 }
 
 
