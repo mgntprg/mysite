@@ -62,7 +62,7 @@ function DataSci(props)
 
   <div>
   <p>To build deep learning models, I use tensorflow and keras. </p>
-  <p>Below is a good example of some core code I wrote for the 2019 APTOS challenge. I used data preprocessing (see parent dir), augmentation, and dropout to build a convolutional classifier</p>
+  <p>Below is a good example of some core code I wrote for the 2019 APTOS challenge. I used data preprocessing, augmentation, and dropout to build a convolutional classifier</p>
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/mgntprg/aptos_2019/blob/master/Aptos/aptos_analysis.ipynb">APTOS Kaggle Challenge</a>
   </div>
   <br></br>
@@ -75,26 +75,7 @@ function DataSci(props)
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/ml-stuff/reddit-aita-project">Reddit AITA Notebook</a>
   
   <br></br>
-  <hr></hr>
-  <div>
-  <p>To get a strong mathematical foundation and theoretical foundation, I took multivariable calculus, statistics, and linear algebra and read the Goodfellow Deep Learning Book</p>
-  <p>I also read research papers to further my knowledge and make my notes publicly available on github:</p>
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/mgntprg/DL_Book">DL Book Notes</a>
-  <br></br>
-  <br></br>
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/mgntprg/Research_Papers_anno">Research Papers</a>
-  <br></br>
-  
-  </div>
-
-  <hr></hr>
-
-  <div>
-  <p>In this project, I tried to remove imperfections from filtered pictures using OpenCV and a generative model.</p>
-  <p>I got this inspiration because I noticed there were flaws whenever I used a PDF scanner, which could be fixed with basic editing</p>
-  <p>I used OpenCV to apply filters to images in bulk, manually removed imperfections, and then used a generative model to get the final result</p>
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/mgntprg/blackboard_effect">Blackboard Effect</a>
-  </div>
+  <hr></hr> 
 
   </div>
   );

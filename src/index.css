@@ -83,14 +83,14 @@ a:hover
 .aita_pic
 {
   width: 56vw;
-  height: 30vh;
+  height: 10vh;
 }
 
 .WebDev, .DataSci
 {
   background-color: lightgrey;
   color: black;
-  border: 1px solid cyan;
+  border: 1px solid lightskyblue;
   cursor: pointer;
 }
 
@@ -101,7 +101,8 @@ a:hover
 
 .WebDev:hover, .DataSci:hover
 {
-  background-color: grey;
+  background-color: white;
+  transition-duration: 0.4s;
 }
 
 
